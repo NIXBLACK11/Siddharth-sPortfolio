@@ -13,15 +13,16 @@
   }
 }
 
+
 .App-header {
-  background-color: #282c34;
+  background-color: #282c3400;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgba(255, 255, 255, 0);
 }
 
 .App-link {
@@ -36,3 +37,72 @@
     transform: rotate(360deg);
   }
 }
+
+.navtext{
+  color: #FF58E6 !important;
+}
+
+.navtext:hover{
+  color: #79166a !important;
+}
+.about_text{
+  color:blue;
+}
+.banner_text{
+  color: white !important;
+}
+
+.banner_text2{
+  color: #FF58E6 !important;
+} 
+
+.banner_text3{
+  color: #79166a !important;
+}
+
+.button_back{
+  background-color: #FF58E6 !important;
+}
+
+.button_back:hover{
+  background-color: #79166a !important;
+}
+
+.back{
+  background-size: cover, contain;
+  border-radius: 4rem;
+}
+
+img.vert-move {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+img.vert-move {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+
+.font-link{
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.col-col{
+  /* background:rgba(163, 55, 134, 0.541); */
+  background:rgba(238, 14, 238, 0.589) !important;
+}
+.col-col:hover{
+  background:rgba(1, 0, 1, 0.817) !important;
+}
+
+.edu-p{
+  background:rgba(1, 1, 0, 0.817);
+}
+
