@@ -39,11 +39,11 @@
 }
 
 .navtext{
-  color: #FF58E6 !important;
+  color: #5871ff !important;
 }
 
 .navtext:hover{
-  color: #79166a !important;
+  color: #164379 !important;
 }
 .about_text{
   color:blue;
@@ -53,19 +53,19 @@
 }
 
 .banner_text2{
-  color: #FF58E6 !important;
+  color: #5871ff !important;
 } 
 
 .banner_text3{
-  color: #79166a !important;
+  color: #164379 !important;
 }
 
 .button_back{
-  background-color: #FF58E6 !important;
+  background-color: #5871ff !important;
 }
 
 .button_back:hover{
-  background-color: #79166a !important;
+  background-color: #164379  !important;
 }
 
 .back{
@@ -96,13 +96,12 @@ img.vert-move {
 
 .col-col{
   /* background:rgba(163, 55, 134, 0.541); */
-  background:rgba(238, 14, 238, 0.589) !important;
+  background:rgba(14, 111, 238, 0.589) !important;
 }
 .col-col:hover{
-  background:rgba(1, 0, 1, 0.817) !important;
+  background:rgba(0, 1, 1, 0.817) !important;
 }
 
 .edu-p{
   background:rgba(1, 1, 0, 0.817);
 }
-
