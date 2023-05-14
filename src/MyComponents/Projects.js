@@ -57,25 +57,25 @@ export default function Projects
       </Row>
       <Row className='d-flex justify-content-center py-3 rounded '>
       <Card style={{ width: '25rem' }} className="mx-3  my-3 col-col">
-      <Card.Img variant="top" src="project-img5.jpg" className="rounded mt-2"/>
-      <Card.Body>
-        <Card.Title className='banner_text'>Coming Soon!</Card.Title>
-        <Card.Text className='banner_text'>
-        Project description ,Coming Soon!
-        </Card.Text>
-      </Card.Body>
-    </Card>
-    <Card style={{ width: '25rem' }} className="mx-3  my-3 col-col">
       <Card.Img variant="top" src="project-img4.png" className="rounded mt-2"/>
       <Card.Body>
-        <Card.Title className='banner_text'>Coming Soon!</Card.Title>
+        <Card.Title className='banner_text'>Instagram Hashtag Finder</Card.Title>
         <Card.Text className='banner_text'>
-          Project description ,Coming Soon!
+        Search Engine to find the hashtag related to topics in instagram
         </Card.Text>
       </Card.Body>
     </Card>
     <Card style={{ width: '25rem' }} className="mx-3  my-3 col-col">
-      <Card.Img variant="top" src="project-img5.jpg" className="rounded mt-2"/>
+      <Card.Img variant="top" src="project-img5.png" className="rounded mt-2"/>
+      <Card.Body>
+        <Card.Title className='banner_text'>Telegram based bank user chat bot</Card.Title>
+        <Card.Text className='banner_text'>
+          Used gy users to view account info and basic bank policies
+        </Card.Text>
+      </Card.Body>
+    </Card>
+    <Card style={{ width: '25rem' }} className="mx-3  my-3 col-col">
+      <Card.Img variant="top" src="project-img6.jpg" className="rounded mt-2"/>
       <Card.Body>
         <Card.Title className='banner_text'>Coming Soon!</Card.Title>
         <Card.Text className='banner_text'>

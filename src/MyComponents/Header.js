@@ -57,8 +57,8 @@ export default function Header
         </Nav.Link>
         {/* href="https://www.hackerrank.com/Siddharthsinghr3?hr_r=1" href="https://auth.geeksforgeeks.org/user/siddharthsinghrana11" */}
         {/* onclick="window.open('https://www.hackerrank.com/Siddharthsinghr3?hr_r=1'); window.open('https://auth.geeksforgeeks.org/user/siddharthsinghrana11');" */}
-        <Nav.Link href="https://www.hackerrank.com/Siddharthsinghr3?hr_r=1" target="_blank"className='mx-1'>
-        <FaHackerrank className='navtext' size={30}/>
+        <Nav.Link href="https://leetcode.com/NIXBLACK/" target="_blank"className='mx-1'>
+        <FaCode className='navtext' size={30}/>
         </Nav.Link>
         <Nav.Link href="https://auth.geeksforgeeks.org/user/siddharthsinghrana11" target="_blank" className='mx-1'>
         <FaCode className='navtext' size={30}/>

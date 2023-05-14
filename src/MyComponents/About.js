@@ -7,7 +7,7 @@ import {FaUser,FaArrowCircleDown} from "react-icons/fa";
 export default function About
 (props) {
   return (
-    <section >
+    <section>
     <div variant="dark">
         <>
         {/* className='mt-5 pt-5 mb-5 pb-5' */}
