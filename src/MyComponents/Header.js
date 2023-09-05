@@ -40,28 +40,56 @@ export default function Header
             <Nav.Link href="#Education" className='mx-5 navtext font-link'>Education</Nav.Link>
             <Nav.Link href="#Projects" className='mx-5 navtext font-link'>Projects</Nav.Link>
             <Nav.Link href="https://twitter.com/NIXBLACK_" target="_blank" className='mx-1'>
-            <FaTwitter className='navtext' size={30}/>
-        </Nav.Link>
-        <Nav.Link href="https://www.linkedin.com/in/siddharthsinghrana11/" target="_blank" className='mx-1'>
-        <FaLinkedin className='navtext' size={30}/>
-        </Nav.Link>
-        <Nav.Link href="https://github.com/NIXBLACK11" target="_blank" className='mx-1'>
-        {/* <img
+            <img
           alt="logo"
           src="twitter.png"
           width="40"
           height="40"
           className="d-inline-block align-top rounded "
-        /> */}
-        <FaGithub className='navtext' size={30}/>
+        />
+            {/* <FaTwitter className='navtext' size={30}/> */}
+        </Nav.Link>
+        <Nav.Link href="https://www.linkedin.com/in/siddharthsinghrana11/" target="_blank" className='mx-1'>
+        <img
+          alt="logo"
+          src="linkedin.png"
+          width="40"
+          height="40"
+          className="d-inline-block align-top rounded "
+        />
+        {/* <FaLinkedin className='navtext' size={30}/> */}
+        </Nav.Link>
+        <Nav.Link href="https://github.com/NIXBLACK11" target="_blank" className='mx-1'>
+        <img
+          alt="logo"
+          src="github.png"
+          width="40"
+          height="40"
+          className="d-inline-block align-top rounded "
+        />
+        {/* <FaGithub className='navtext' size={30}/> */}
         </Nav.Link>
         {/* href="https://www.hackerrank.com/Siddharthsinghr3?hr_r=1" href="https://auth.geeksforgeeks.org/user/siddharthsinghrana11" */}
         {/* onclick="window.open('https://www.hackerrank.com/Siddharthsinghr3?hr_r=1'); window.open('https://auth.geeksforgeeks.org/user/siddharthsinghrana11');" */}
         <Nav.Link href="https://leetcode.com/NIXBLACK/" target="_blank"className='mx-1'>
-        <FaCode className='navtext' size={30}/>
+        <img
+          alt="logo"
+          src="leetcode.png"
+          width="40"
+          height="40"
+          className="d-inline-block align-top rounded "
+        />
+        {/* <FaCode className='navtext' size={30}/> */}
         </Nav.Link>
         <Nav.Link href="https://auth.geeksforgeeks.org/user/siddharthsinghrana11" target="_blank" className='mx-1'>
-        <FaCode className='navtext' size={30}/>
+        <img
+          alt="logo"
+          src="gfg.png"
+          width="40"
+          height="40"
+          className="d-inline-block align-top rounded "
+        />
+        {/* <FaCode className='navtext' size={30}/> */}
         </Nav.Link>
           </Nav>
         </Navbar.Collapse>
