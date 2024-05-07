@@ -22,8 +22,8 @@ export default function About
 				<img src="home.jpg" alt="la" widht="200" height="190" className="img-fluid rounded"/>
 			</Col>
 			<Col className="col mr-4 ms-2 pt-2">
-				<h3 class="h3  py-2 banner_text2">Secondary (ICSE) and Higher Secondary (ISC)</h3>
-				<a href="https://www.stjosephscollege.in/" target="_blank" class="text-decoration-none text-primary"><p className="p navtext">St.Joseph's College | Nainital</p></a>
+				<h3 className="h3  py-2 banner_text2">Secondary (ICSE) and Higher Secondary (ISC)</h3>
+				<a href="https://www.stjosephscollege.in/" target="_blank" className="text-decoration-none text-primary"><p className="p navtext">St.Joseph's College | Nainital</p></a>
 				<h3 className="h4 text-white py-2">2009-2021 | Completed</h3>
 			</Col>
 		</Row>
@@ -32,10 +32,10 @@ export default function About
 				<img src="graphic.jpg" alt="la" widht="200" height="190" className="img-fluid rounded"/>
 			</Col>
 			<Col className="col mr-4 ms-2 pt-2">
-				<h3 class="h3  py-2 banner_text2">
+				<h3 className="h3  py-2 banner_text2">
 					Bachelor of Technology in Computer Science and Engineering
 				</h3>
-				<a href="https://www.gehu.ac.in/" target="_blank" class="text-decoration-none text-primary"><p className="p navtext">Graphic Era Hill University | Dehradun</p></a>
+				<a href="https://www.gehu.ac.in/" target="_blank" className="text-decoration-none text-primary"><p className="p navtext">Graphic Era Hill University | Dehradun</p></a>
 				<h3 className="h4 text-white py-2">2021-2025 | Pursuing</h3>
 			</Col>
 		</Row>

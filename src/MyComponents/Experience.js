@@ -1,7 +1,7 @@
 import '../App.css';
 import React from 'react'
-import {Row,Col,Container,Button} from 'react-bootstrap'
-import {FaGraduationCap} from "react-icons/fa";
+import {Row,Col,Container,Button} from 'react-bootstrap';
+import { CgAlbum } from "react-icons/cg";
 // import {FaEnvelope, FaHeart} from "react-icons/fa";
 
 
@@ -13,7 +13,7 @@ export default function Experience
         <>
         <Row className='justify-content-center'>
             <Col className='col-3 justify-content-center d-flex' xs={12} md={6} xl={6}>
-                <h1 className='h1 banner_text2'><FaGraduationCap className='ps-1 mx-2' size={50}/>Experience</h1>
+                <h1 className='h1 banner_text2'><CgAlbum className='ps-1 mx-2' size={50}/>Experience</h1>
             </Col>
         </Row>
         <Container className='rounded ' fluid>
@@ -22,8 +22,8 @@ export default function Experience
 				<img src="META.png" alt="la" widht="200" height="190" className="img-fluid rounded"/>
 			</Col>
 			<Col className="col mr-4 ms-2 pt-2">
-				<h3 class="h3  py-2 banner_text2">Software Engineer Intern</h3>
-				<a href="https://opensource.fb.com/partnerships/major-league-hacking/" target="_blank" class="text-decoration-none text-primary"><p className="p navtext">META | Major League Hacking</p></a>
+				<h3 className="h3  py-2 banner_text2">Software Engineer Intern</h3>
+				<a href="https://opensource.fb.com/partnerships/major-league-hacking/" target="_blank" className="text-decoration-none text-primary"><p className="p navtext">META | Major League Hacking</p></a>
 				<h3 className="h4 text-white py-2">September-December (2023) | Completed</h3>
 			</Col>
 		</Row>

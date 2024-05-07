@@ -29,6 +29,7 @@ export default function Header(props) {
             <Nav.Link href="#Skills" className='mx-3 navtext font-link'>Skills</Nav.Link>
             <Nav.Link href="#Education" className='mx-3 navtext font-link'>Education</Nav.Link>
             <Nav.Link href="#Experience" className='mx-3 navtext font-link'>Experience</Nav.Link>
+            <Nav.Link href="#Recommendations" className='mx-3 navtext font-link'>Recommendations</Nav.Link>
             <Nav.Link href="#Projects" className='mx-3 navtext font-link'>Projects</Nav.Link>
           </Nav>
         </Navbar.Collapse>
