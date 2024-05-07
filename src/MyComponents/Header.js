@@ -26,7 +26,7 @@ export default function Header
         />{''}
       </Navbar.Brand>
     </Container>
-    <Container className='col-6 '>
+    <Container className='col-8 '>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
