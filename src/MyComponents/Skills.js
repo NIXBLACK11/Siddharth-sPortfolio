@@ -127,12 +127,12 @@ export default function Skills
       <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3  rounded'>
       <img
           alt="logo"
-          src="12.png"
+          src="Go.png"
           // width="500"
           height="80"
           className="rounded mt-2  "
         />
-        <h4 className='  h4 banner_text mt-2 mb-3 font-link'>Cloud</h4>
+        <h4 className='  h4 banner_text mt-2 mb-3 font-link'>Golang</h4>
         </Col>
         <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3  rounded'>
       <img

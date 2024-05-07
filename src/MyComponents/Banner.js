@@ -1,6 +1,6 @@
 import '../App.css';
 import React from 'react'
-import {Row,Col,Container} from 'react-bootstrap'
+import {Row,Col,Container, Nav} from 'react-bootstrap';
 import Typical from "react-typical";
 
 // import {FaEnvelope, FaHeart} from "react-icons/fa";
@@ -41,6 +41,54 @@ export default function Banner
             />
           </p>
           </div>
+          <Nav className="ml-auto">
+          <Nav.Link href="https://twitter.com/NIXBLACK_" target="_blank" className='mx-1'>
+          <img
+          alt="logo"
+          src="x.png"
+          width="40"
+          height="40"
+          className="d-inline-block align-top rounded "
+        />
+          </Nav.Link>
+          <Nav.Link href="https://www.linkedin.com/in/siddharthsinghrana11/" target="_blank" className='mx-1'>
+            <img
+              alt="logo"
+              src="linkedin.png"
+              width="40"
+              height="40"
+              className="d-inline-block align-top rounded "
+            />
+          </Nav.Link>
+          <Nav.Link href="https://github.com/NIXBLACK11" target="_blank" className='mx-1'>
+          <img
+          alt="logo"
+          src="github1.png"
+          width="40"
+          height="40"
+          className="d-inline-block align-top rounded "
+        />
+          </Nav.Link>
+          <Nav.Link href="https://leetcode.com/NIXBLACK/" target="_blank" className='mx-1'>
+          <img
+          alt="logo"
+          src="leetcode.png"
+          width="40"
+          height="40"
+          className="d-inline-block align-top rounded "
+        />
+          </Nav.Link>
+          <Nav.Link href="https://auth.geeksforgeeks.org/user/siddharthsinghrana11" target="_blank" className='mx-1'>
+        <img
+          alt="logo"
+          src="gfg.png"
+          width="40"
+          height="40"
+          className="d-inline-block align-top rounded "
+        />
+        {/* <FaCode className='navtext' size={30}/> */}
+        </Nav.Link>
+        </Nav>
         </Col>
         <Col className='col-6 justify-content-center text-center mt-5 mb-5 pb-5' xs={12} md={6} xl={6}>
         <img

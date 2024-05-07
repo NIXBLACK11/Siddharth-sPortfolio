@@ -4,6 +4,7 @@ import Banner from './MyComponents/Banner';
 import About from './MyComponents/About';
 import Skills from './MyComponents/Skills';
 import Education from './MyComponents/Education';
+import Experience from './MyComponents/Experience';
 import Projects from './MyComponents/Projects';
 import Footer from './MyComponents/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,23 +14,26 @@ function App() {
   return (
     <div style={{ backgroundColor: "black" }}>
       <section className="container-fluid back " id="Home" style={{ backgroundImage: "url(back.jpg)" }}>
-        <Header></Header>
-        <Banner></Banner>
+        <Header/>
+        <Banner/>
       </section>
       <section className="container-fluid back" id="About" style={{ backgroundColor: "black" }}>
-        <About></About>
+        <About/>
       </section>
       <section className="container-fluid back" id="Skills" style={{ backgroundColor: "black" }}>
-        <Skills></Skills>
+        <Skills/>
       </section>
       <section className="container-fluid back" id="Education" style={{ backgroundColor: "black" }}>
-        <Education></Education>
+        <Education/>
+      </section>
+      <section className="container-fluid back" id="Experience" style={{ backgroundColor: "black" }}>
+        <Experience/>
       </section>
       <section className="container-fluid back" id="Projects" style={{ backgroundColor: "black" }}>
-        <Projects></Projects>
+        <Projects/>
       </section>
       <section className="container-fluid back" id="Footer">
-        <Footer></Footer>
+        <Footer/>
       </section>
     </div>
   );

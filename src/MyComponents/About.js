@@ -21,9 +21,8 @@ export default function About
       <Col className='col-xl-6 col-md-8 col-xs-12  justify-content-center text-center ' xs={12} md={6} xl={6}>
         <img
           alt="logo"
-          src="about.jpg"
-          // width="625"
-          // height="500"
+          src="face.png"
+          width="300"
           className="img-fluid"
         />
         </Col>
@@ -35,13 +34,13 @@ export default function About
           <h1 className='h3 banner_text3 font-link'>Student</h1>
           <br></br>
           <br></br>
-          <p className='h4 banner_text font-link'>🎯&emsp;I am a hard working and organized individual🥇.<br></br>🎯&emsp;Looking to start a career as an entry-level professional<br/>&emsp;with a reputed IT company to enhance and explore my<br/>&emsp;technical knowledge gained at Graphic Era University😎.<br></br>🎯&emsp;Innovative, creative, and willing to contribute ideas<br/>&emsp;and learn new things🚀.<br></br>🎯&emsp;Proficient in C, Python, Bash and Java🛸.<br></br>🎯&emsp;Won several coding competitions🛰️.</p>
+          <p className='h4 banner_text font-link'>Mlh Fellow '23 | Freelance software developer | Seeking entry level programming position | Experience in building apps with java, react, python | 400+ on leetcode.</p>
           </div>
         </Col>
       </Row>
       <Row className='mb-5'>
         <div className='text-center'>
-          <Button href="Finalresume.pdf" target="_blank" className='button_back'><span>Resume</span><FaArrowCircleDown className="ps-1" size={25}/></Button>
+          <Button href="SiddharthRana.pdf" target="_blank" className='button_back'><span>Resume</span><FaArrowCircleDown className="ps-1" size={25}/></Button>
           </div>
       </Row>
     </Container>
