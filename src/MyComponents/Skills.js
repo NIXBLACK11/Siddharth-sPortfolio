@@ -20,7 +20,7 @@ export default function Skills
         {/* "https://www.flaticon.com/free-icons/javascript"   ,   "https://www.flaticon.com/free-icons/code"   ,  <a href="https://www.flaticon.com/free-icons/python-file" title="python file icons">Python file icons created by Flat Icons - Flaticon</a>,   <a href="https://www.flaticon.com/free-icons/java" title="java icons">Java icons created by Freepik - Flaticon</a>  ,   <a href="https://www.flaticon.com/free-icons/javascript" title="javascript icons">Javascript icons created by Freepik - Flaticon</a>  , <a href="https://www.flaticon.com/free-icons/machine-learning" title="machine learning icons">Machine learning icons created by netscript - Flaticon</a> ,<a href="https://www.flaticon.com/free-icons/letter-c" title="letter c icons">Letter c icons created by Hight Quality Icons - Flaticon</a> , <a href="https://www.flaticon.com/free-icons/coding" title="coding icons">Coding icons created by Freepik - Flaticon</a>  ,  <a href="https://www.flaticon.com/free-icons/html-5" title="html 5 icons">Html 5 icons created by Freepik - Flaticon</a> , <a href="https://www.flaticon.com/free-icons/css" title="css icons">Css icons created by Pixel perfect - Flaticon</a>  ,   <a href="https://www.flaticon.com/free-icons/react" title="react icons">React icons created by Kiranshastry - Flaticon</a>*/}
         <Container className='rounded p-xl-5'>
       <Row className='text-center justify-content-center py-3 rounded'>
-      <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3  rounded'>
+      <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2  rounded'>
       <img
           alt="logo"
           src="2.png"
@@ -30,7 +30,7 @@ export default function Skills
         />
         <h4 className='  h4 banner_text mt-2 mb-3 font-link'>JAVA</h4>
         </Col>
-        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3  rounded'>
+        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2  rounded'>
       <img
           alt="logo"
           src="3.png"
@@ -40,7 +40,7 @@ export default function Skills
         />
         <h4 className='  h4 banner_text mt-2 mb-3 font-link'>C</h4>
         </Col>
-        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3  rounded'>
+        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2  rounded'>
       <img
           alt="logo"
           src="4.png"
@@ -50,7 +50,7 @@ export default function Skills
         />
         <h4 className='  h4 banner_text mt-2 mb-3 font-link'>C++</h4>
         </Col>
-        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3  rounded'>
+        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2  rounded'>
       <img
           alt="logo"
           src="5.png"
@@ -60,7 +60,7 @@ export default function Skills
         />
         <h4 className='  h4 banner_text mt-2 mb-3 font-link'>Python</h4>
         </Col>
-        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3  rounded'>
+        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2  rounded'>
       <img
           alt="logo"
           src="6.png"
@@ -72,7 +72,7 @@ export default function Skills
         </Col>
       </Row>
       <Row className='text-center justify-content-center py-3 rounded'>
-      <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3  rounded'>
+      <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2  rounded'>
       <img
           alt="logo"
           src="7.png"
@@ -82,7 +82,7 @@ export default function Skills
         />
         <h4 className='  h4 banner_text mt-2 mb-3 font-link'>HTML</h4>
         </Col>
-        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3  rounded'>
+        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2  rounded'>
       <img
           alt="logo"
           src="8.png"
@@ -92,7 +92,7 @@ export default function Skills
         />
         <h4 className='  h4 banner_text mt-2 mb-3 font-link'>CSS</h4>
         </Col>
-        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3  rounded'>
+        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2  rounded'>
       <img
           alt="logo"
           src="9.png"
@@ -102,7 +102,7 @@ export default function Skills
         />
         <h4 className='  h4 banner_text mt-2 mb-3 font-link'>Javascript</h4>
         </Col>
-        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3  rounded'>
+        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2  rounded'>
       <img
           alt="logo"
           src="10.png"
@@ -112,7 +112,7 @@ export default function Skills
         />
         <h4 className='  h4 banner_text mt-2 mb-3 font-link'>React</h4>
         </Col>
-        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3  rounded'>
+        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2 rounded'>
       <img
           alt="logo"
           src="11.png"
@@ -124,7 +124,7 @@ export default function Skills
         </Col>
       </Row>
       <Row className='text-center justify-content-center py-3 rounded'>
-      <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3  rounded'>
+      <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2  rounded'>
       <img
           alt="logo"
           src="Go.png"
@@ -134,7 +134,7 @@ export default function Skills
         />
         <h4 className='  h4 banner_text mt-2 mb-3 font-link'>Golang</h4>
         </Col>
-        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3  rounded'>
+        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2  rounded'>
       <img
           alt="logo"
           src="13.png"
@@ -144,7 +144,7 @@ export default function Skills
         />
         <h4 className='  h4 banner_text mt-2 mb-3 font-link'>Amazon AWS</h4>
         </Col>
-        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3  rounded'>
+        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2  rounded'>
       <img
           alt="logo"
           src="14.png"
@@ -154,7 +154,7 @@ export default function Skills
         />
         <h4 className='  h4 banner_text mt-2 mb-3 font-link'>Linux</h4>
         </Col>
-        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3  rounded'>
+        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2  rounded'>
       <img
           alt="logo"
           src="15.png"
@@ -164,7 +164,7 @@ export default function Skills
         />
         <h4 className='  h4 banner_text mt-2 mb-3 font-link'>Github</h4>
         </Col>
-        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3  rounded'>
+        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2  rounded'>
       <img
           alt="logo"
           src="16.png"
@@ -176,7 +176,7 @@ export default function Skills
         </Col>
       </Row>
       <Row className='text-center justify-content-center py-3 rounded'>
-      <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3  rounded'>
+      <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2  rounded'>
       <img
           alt="logo"
           src="17.png"
@@ -186,7 +186,7 @@ export default function Skills
         />
         <h4 className='  h4 banner_text mt-2 mb-3 font-link'>My SQL</h4>
         </Col>
-        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3  rounded'>
+        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2  rounded'>
       <img
           alt="logo"
           src="18.png"
@@ -196,7 +196,7 @@ export default function Skills
         />
         <h4 className='  h4 banner_text mt-2 mb-3 font-link'>Docker</h4>
         </Col>
-        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3  rounded'>
+        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2  rounded'>
       <img
           alt="logo"
           src="19.png"
@@ -206,7 +206,7 @@ export default function Skills
         />
         <h4 className='  h4 banner_text mt-2 mb-3 font-link'>Mongo DB</h4>
         </Col>
-        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3  rounded'>
+        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2  rounded'>
       <img
           alt="logo"
           src="20.png"
@@ -216,7 +216,7 @@ export default function Skills
         />
         <h4 className='  h4 banner_text mt-2 mb-3 font-link'>Py Torch</h4>
         </Col>
-        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3  rounded'>
+        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2  rounded'>
       <img
           alt="logo"
           src="21.png"

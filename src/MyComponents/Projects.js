@@ -135,7 +135,7 @@ export default function Projects(props) {
                   </Card.Text>
                 </Card.Body>
               </Card>
-              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col"onClick={() => {window.open('https://github.com/NIXBLACK11/DESKTOP_APP', '_blank');}}>
+              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col" onClick={() => {window.open('https://github.com/NIXBLACK11/DESKTOP_APP', '_blank');}}>
                 <Card.Img
                   variant="top"
                   src="project-img3.jpg"
@@ -149,8 +149,6 @@ export default function Projects(props) {
                   </Card.Text>
                 </Card.Body>
               </Card>
-            </Row>
-            <Row className="d-flex justify-content-center py-3 rounded ">
               <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col" onClick={() => {window.open('https://instagram-hashtag-search.netlify.app/', '_blank');}}>
                 <Card.Img
                   variant="top"

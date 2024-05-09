@@ -24,13 +24,13 @@ export default function Header(props) {
             style={{ maxHeight: '100px', overflowX: 'auto' }} // Added overflowX property
             navbarScroll
           >
-            <Nav.Link href="#Home" className='mx-3 navtext font-link'>Home</Nav.Link>
-            <Nav.Link href="#About" className='mx-3 navtext font-link'>About</Nav.Link>
-            <Nav.Link href="#Skills" className='mx-3 navtext font-link'>Skills</Nav.Link>
-            <Nav.Link href="#Education" className='mx-3 navtext font-link'>Education</Nav.Link>
-            <Nav.Link href="#Experience" className='mx-3 navtext font-link'>Experience</Nav.Link>
-            <Nav.Link href="#Recommendations" className='mx-3 navtext font-link'>Recommendations</Nav.Link>
-            <Nav.Link href="#Projects" className='mx-3 navtext font-link'>Projects</Nav.Link>
+            <Nav.Link href="#Home" className='mx-3 navtext font-link' style={{ fontSize: '20px' }}>Home</Nav.Link>
+            <Nav.Link href="#About" className='mx-3 navtext font-link' style={{ fontSize: '20px' }}>About</Nav.Link>
+            <Nav.Link href="#Skills" className='mx-3 navtext font-link' style={{ fontSize: '20px' }}>Skills</Nav.Link>
+            <Nav.Link href="#Education" className='mx-3 navtext font-link' style={{ fontSize: '20px' }}>Education</Nav.Link>
+            <Nav.Link href="#Experience" className='mx-3 navtext font-link' style={{ fontSize: '20px' }}>Experience</Nav.Link>
+            <Nav.Link href="#Recommendations" className='mx-3 navtext font-link' style={{ fontSize: '20px' }}>Recommendations</Nav.Link>
+            <Nav.Link href="#Projects" className='mx-3 navtext font-link' style={{ fontSize: '20px' }}>Projects</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         {/* <Nav className="ml-auto">
