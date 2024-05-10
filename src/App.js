@@ -9,6 +9,7 @@ import Recommendations from './MyComponents/Recommendations';
 import Projects from './MyComponents/Projects';
 import Footer from './MyComponents/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Github from './MyComponents/Github';
 
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
       </section>
       <section className="container-fluid back" id="About" style={{ backgroundColor: "black" }}>
         <About/>
+      </section>
+      <section className="container-fluid back" id="Activity" style={{ backgroundColor: "black" }}>
+        <Github/>
       </section>
       <section className="container-fluid back" id="Skills" style={{ backgroundColor: "black" }}>
         <Skills/>

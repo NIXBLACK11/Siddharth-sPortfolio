@@ -33,7 +33,7 @@ export default function Banner
                 5000,
                 ' Python Developer 🥇',
                 5000,
-                ' Cyber security enthusiast 🛡️',
+                ' Open Source enthusiast 🛡️',
                 5000,
                 ' Student 🎓',
                 5000
