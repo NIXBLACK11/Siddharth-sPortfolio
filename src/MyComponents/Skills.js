@@ -227,6 +227,58 @@ export default function Skills
         <h4 className='  h4 banner_text mt-2 mb-3 font-link'>Tensor Flow</h4>
         </Col>
       </Row>
+      <Row className='text-center justify-content-center py-3 rounded'>
+      <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2  rounded'>
+      <img
+          alt="logo"
+          src="22.png"
+          // width="500"
+          height="80"
+          className="rounded mt-2  "
+        />
+        <h4 className='  h4 banner_text mt-2 mb-3 font-link'>Prisma</h4>
+        </Col>
+        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2  rounded'>
+      <img
+          alt="logo"
+          src="23.png"
+          // width="500"
+          height="80"
+          className="rounded mt-2  "
+        />
+        <h4 className='  h4 banner_text mt-2 mb-3 font-link'>Typescript</h4>
+        </Col>
+        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2  rounded'>
+      <img
+          alt="logo"
+          src="24.png"
+          // width="500"
+          height="80"
+          className="rounded mt-2  "
+        />
+        <h4 className='  h4 banner_text mt-2 mb-3 font-link'>Next JS</h4>
+        </Col>
+        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2  rounded'>
+      <img
+          alt="logo"
+          src="25.png"
+          // width="500"
+          height="80"
+          className="rounded mt-2  "
+        />
+        <h4 className='  h4 banner_text mt-2 mb-3 font-link'>PostgreSQL</h4>
+        </Col>
+        <Col className='col-xl-2 col-md-2 mx-md-2 mx-xs-2 col-xs-12 col-col mx-xl-3 my-3 mx-2  rounded'>
+      <img
+          alt="logo"
+          src="26.svg"
+          // width="500"
+          height="80"
+          className="rounded mt-2  "
+        />
+        <h4 className='  h4 banner_text mt-2 mb-3 font-link'>Turborepo</h4>
+        </Col>
+      </Row>
     </Container>
 </>
     </div>
