@@ -1,4 +1,4 @@
-Link to [protfolio](https://siddharth-dev-portfolio.netlify.app/).
+Link to [portfolio](https://siddharth-dev-portfolio.netlify.app/).
 
 Welcome to my personal portfolio! Here, you'll find a collection of my work and projects that showcase my skills, experience, and passion for [insert your field or specialization]. Whether you're a potential employer, collaborator, or just curious about what I do, I'm glad you stopped by.
 
