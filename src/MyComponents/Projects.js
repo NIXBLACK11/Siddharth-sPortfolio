@@ -1,6 +1,7 @@
 import "../App.css";
 import React from "react";
-import { Row, Col, Container, Button, Card } from "react-bootstrap";
+import { FaGithub, FaLink } from "react-icons/fa";
+import { Row, Col, Container, Button, Card, Nav } from "react-bootstrap";
 import { FaProjectDiagram } from "react-icons/fa";
 
 export default function Projects(props) {
@@ -23,7 +24,7 @@ export default function Projects(props) {
           </Row>
           <Container className="rounded" fluid>
             <Row className="d-flex justify-content-center py-3 rounded ">
-              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col" onClick={() => {window.open('https://github.com/NIXBLACK11/summarizationExtension', '_blank');}}>
+              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col">
                 <Card.Img
                   variant="top"
                   src="bertproject.jpg"
@@ -34,9 +35,14 @@ export default function Projects(props) {
                   <Card.Text className="banner_text">
                     Utilized Google BERT for real-time text summarization, enhancing user productivity.
                   </Card.Text>
+                  <Nav className="ml-auto">
+                    <Nav.Link href="https://github.com/NIXBLACK11/summarizationExtension" target="_blank" className='mx-1'>
+                      <FaGithub/>
+                    </Nav.Link>
+                  </Nav>
                 </Card.Body>
               </Card>
-              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col" onClick={() => {window.open('https://github.com/NIXBLACK11/The-Feedback-Loop', '_blank');}}>
+              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col">
                 <Card.Img
                   variant="top"
                   src="Feedback.png"
@@ -48,9 +54,14 @@ export default function Projects(props) {
                   <Card.Text className="banner_text">
                     Video analysis app that gives people insights of thier creations.
                   </Card.Text>
+                  <Nav className="ml-auto">
+                    <Nav.Link href="https://github.com/NIXBLACK11/The-Feedback-Loop" target="_blank" className='mx-1'>
+                      <FaGithub/>
+                    </Nav.Link>
+                  </Nav>
                 </Card.Body>
               </Card>
-              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col" onClick={() => {window.open('https://github.com/NIXBLACK11/GoLinkTree', '_blank');}}>
+              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col">
                 <Card.Img
                   variant="top"
                   src="linktree.jpeg"
@@ -62,9 +73,17 @@ export default function Projects(props) {
                   <Card.Text className="banner_text">
                     A place to store and share your links.
                   </Card.Text>
+                  <Nav className="ml-auto">
+                    <Nav.Link href="https://github.com/NIXBLACK11/GoLinkTree" target="_blank" className='mx-1'>
+                      <FaGithub/>
+                    </Nav.Link>
+                    <Nav.Link href="https://link-go-tree.vercel.app/" target="_blank" className='mx-1'>
+                      <FaLink/>
+                    </Nav.Link>
+                  </Nav>
                 </Card.Body>
               </Card>
-              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col"onClick={() => {window.open('https://github.com/NIXBLACK11/chatApp', '_blank');}}>
+              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col">
                 <Card.Img
                   variant="top"
                   src="codeChat.png"
@@ -76,9 +95,14 @@ export default function Projects(props) {
                   <Card.Text className="banner_text">
                     Connect multiple users and chat in real time.
                   </Card.Text>
+                  <Nav className="ml-auto">
+                    <Nav.Link href="https://github.com/NIXBLACK11/chatApp" target="_blank" className='mx-1'>
+                      <FaGithub/>
+                    </Nav.Link>
+                  </Nav>
                 </Card.Body>
               </Card>
-              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col" onClick={() => {window.open('https://github.com/NIXBLACK11/Malware_analysis_using_image_recognition', '_blank');}}>
+              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col">
                 <Card.Img
                   variant="top"
                   src="vgg16.png"
@@ -90,9 +114,17 @@ export default function Projects(props) {
                   <Card.Text className="banner_text">
                     Detect malware in files using image recognition.
                   </Card.Text>
+                  <Nav className="ml-auto">
+                    <Nav.Link href="https://github.com/NIXBLACK11/Malware_analysis_using_image_recognition" target="_blank" className='mx-1'>
+                      <FaGithub/>
+                    </Nav.Link>
+                    <Nav.Link href="https://huggingface.co/spaces/NIXBLACK/IotMalwareDetection" target="_blank" className='mx-1'>
+                      <FaLink/>
+                    </Nav.Link>
+                  </Nav>
                 </Card.Body>
               </Card>
-              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col" onClick={() => {window.open('https://huggingface.co/spaces/NIXBLACK/SentimentAnalysis_LASER_', '_blank');}}>
+              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col">
                 <Card.Img
                   variant="top"
                   src="LASER.png"
@@ -104,6 +136,14 @@ export default function Projects(props) {
                   <Card.Text className="banner_text">
                     Tutorial for the open-source library META Research Library LASER.
                   </Card.Text>
+                  <Nav className="ml-auto">
+                    <Nav.Link href="https://github.com/NIXBLACK11/Malware_analysis_using_image_recognition" target="_blank" className='mx-1'>
+                      <FaGithub/>
+                    </Nav.Link>
+                    <Nav.Link href="https://huggingface.co/spaces/NIXBLACK/SentimentAnalysis_LASER_" target="_blank" className='mx-1'>
+                      <FaLink/>
+                    </Nav.Link>
+                  </Nav>
                 </Card.Body>
               </Card>
               <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col">
@@ -133,9 +173,17 @@ export default function Projects(props) {
                   <Card.Text className="banner_text">
                     Responsive Portfolio website built with ReactJs.
                   </Card.Text>
+                  <Nav className="ml-auto">
+                    <Nav.Link href="https://github.com/NIXBLACK11/Siddharth-sPortfolio" target="_blank" className='mx-1'>
+                      <FaGithub/>
+                    </Nav.Link>
+                    <Nav.Link href="https://siddharth-dev-portfolio.netlify.app/" target="_blank" className='mx-1'>
+                      <FaLink/>
+                    </Nav.Link>
+                  </Nav>
                 </Card.Body>
               </Card>
-              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col" onClick={() => {window.open('https://github.com/NIXBLACK11/DESKTOP_APP', '_blank');}}>
+              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col">
                 <Card.Img
                   variant="top"
                   src="project-img3.jpg"
@@ -147,9 +195,14 @@ export default function Projects(props) {
                     Desktop app with login, update, delete, register
                     functionality.
                   </Card.Text>
+                  <Nav className="ml-auto">
+                    <Nav.Link href="https://github.com/NIXBLACK11/DESKTOP_APP" target="_blank" className='mx-1'>
+                      <FaGithub/>
+                    </Nav.Link>
+                  </Nav>
                 </Card.Body>
               </Card>
-              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col" onClick={() => {window.open('https://instagram-hashtag-search.netlify.app/', '_blank');}}>
+              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col">
                 <Card.Img
                   variant="top"
                   src="project-img4.png"
@@ -163,9 +216,14 @@ export default function Projects(props) {
                     Search Engine to find the hashtag related to topics in
                     instagram.
                   </Card.Text>
+                  <Nav className="ml-auto">
+                    <Nav.Link href="https://github.com/NIXBLACK11/summarizationExtension" target="_blank" className='mx-1'>
+                      <FaGithub/>
+                    </Nav.Link>
+                  </Nav>
                 </Card.Body>
               </Card>
-              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col"onClick={() => {window.open('https://github.com/NIXBLACK11/telegramOrganizationChatBot', '_blank');}}>
+              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col">
                 <Card.Img
                   variant="top"
                   src="project-img5.png"
@@ -178,9 +236,14 @@ export default function Projects(props) {
                   <Card.Text className="banner_text">
                     Used by users to view account info and basic bank policies.
                   </Card.Text>
+                  <Nav className="ml-auto">
+                    <Nav.Link href="https://github.com/NIXBLACK11/DESKTOP_APP" target="_blank" className='mx-1'>
+                      <FaGithub/>
+                    </Nav.Link>
+                  </Nav>
                 </Card.Body>
               </Card>
-              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col"onClick={() => {window.open('https://github.com/NIXBLACK11/ChatBot-NIMBLE-', '_blank');}}>
+              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col">
                 <Card.Img
                   variant="top"
                   src="chatBot.jpg"
@@ -192,6 +255,11 @@ export default function Projects(props) {
                   <Card.Text className="banner_text">
                     Desktop chat app, that uses face recognition as login.
                   </Card.Text>
+                  <Nav className="ml-auto">
+                    <Nav.Link href="https://github.com/NIXBLACK11/ChatBot-NIMBLE-" target="_blank" className='mx-1'>
+                      <FaGithub/>
+                    </Nav.Link>
+                  </Nav>
                 </Card.Body>
               </Card>
             </Row>
