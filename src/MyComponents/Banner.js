@@ -88,6 +88,16 @@ export default function Banner
         />
         {/* <FaCode className='navtext' size={30}/> */}
         </Nav.Link>
+        <Nav.Link href="https://huggingface.co/NIXBLACK" target="_blank" className='mx-1'>
+        <img
+          alt="logo"
+          src="hf-logo.png"
+          width="40"
+          height="40"
+          className="d-inline-block align-top rounded "
+        />
+        {/* <FaCode className='navtext' size={30}/> */}
+        </Nav.Link>
         </Nav>
         </Col>
         <Col className='col-6 justify-content-center text-center mt-5 mb-5 pb-5' xs={12} md={6} xl={6}>
