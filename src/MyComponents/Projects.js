@@ -51,9 +51,12 @@ export default function Projects(props) {
                 <Card.Body>
                   <Card.Title className="banner_text">Joblinker</Card.Title>
                   <Card.Text className="banner_text">
-                    Get the latest links to jobs based on your resume and preferences
+                    Get the latest links to jobs based on your resume and preferences.
                   </Card.Text>
                   <Nav className="ml-auto">
+                    <Nav.Link href="https://github.com/NIXBLACK11/GeminiChallenge" target="_blank" className='mx-1'>
+                      <FaGithub/>
+                    </Nav.Link>
                     <Nav.Link href="https://nixjoblinker.vercel.app/" target="_blank" className='mx-1'>
                       <FaLink/>
                     </Nav.Link>
