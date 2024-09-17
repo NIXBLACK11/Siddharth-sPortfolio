@@ -21,7 +21,7 @@ export default function About
       <Col className='col-xl-6 col-md-8 col-xs-12  justify-content-center text-center ' xs={12} md={6} xl={6}>
         <img
           alt="logo"
-          src="face.png"
+          src="imageFace.png"
           width="300"
           className="img-fluid"
         />
@@ -34,7 +34,7 @@ export default function About
           <h1 className='h3 banner_text3 font-link'>Student</h1>
           <br></br>
           <br></br>
-          <p className='h4 banner_text font-link'>Mlh Fellow '23 | Freelance software developer | Seeking entry level programming position | Experience in building apps with java, react, python | 400+ on leetcode.</p>
+          <p className='h4 banner_text font-link'><a href="https://fellowship.mlh.io/" target="_blank" className='no-underline'>MLH</a> Fellow '23 | <a href="https://superteam.fun/" target="_blank" className='no-underline'>@SuperteamIN</a> | Building <a href="https://solabule-nix.vercel.app/" target="_blank" className='no-underline'>Solabule</a> | Experience in building apps with Typescript, Golang and Python</p>
           </div>
         </Col>
       </Row>

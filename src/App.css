@@ -106,3 +106,6 @@ img.vert-move {
   background:rgba(1, 1, 0, 0.817);
 }
 
+a.no-underline {
+  text-decoration: none;
+}
