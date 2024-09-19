@@ -20,26 +20,24 @@ export default function Banner
           <div className='mt-5'>
           <h1 className='h1 banner_text font-link'>Hi,</h1>
           <h1 className='h1 banner_text font-link'>My name is Siddharth Singh Rana</h1>
-          <p className='h1 banner_text'>
+          <h1 className='h1 banner_text font-link'>
             I'm A 
             <Typical
               loop={Infinity}
               wrapper="b"
               className="h1 banner_text2 font-link"
               steps={[
-                ' Web Developer 🛰️',
+                ' Backend Developer 🛰️',
                 5000,
-                ' Java Developer 💻',
+                ' Web3 Enthusiast 💻',
                 5000,
-                ' Python Developer 🥇',
-                5000,
-                ' Open Source enthusiast 🛡️',
+                ' Founder of Solabule 🥇',
                 5000,
                 ' Student 🎓',
                 5000
               ]}
             />
-          </p>
+          </h1>
           </div>
           <Nav className="ml-auto">
           <Nav.Link href="https://twitter.com/NIXBLACK_" target="_blank" className='mx-1'>

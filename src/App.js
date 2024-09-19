@@ -15,7 +15,7 @@ import Github from './MyComponents/Github';
 function App() {
   return (
     <div style={{ backgroundColor: "black" }}>
-      <section className="container-fluid back " id="Home" style={{ backgroundImage: "url(back.jpg)" }}>
+      <section className="container-fluid back " id="Home" style={{ backgroundImage: "url(img.png)" }}>
         <Header/>
         <Banner/>
       </section>

@@ -24,20 +24,23 @@ export default function Projects(props) {
           </Row>
           <Container className="rounded" fluid>
             <Row className="d-flex justify-content-center py-3 rounded ">
-              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col">
+            <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col">
                 <Card.Img
                   variant="top"
-                  src="bertproject.jpg"
+                  src="solabule.png"
                   className="rounded mt-2"
                 />
                 <Card.Body>
-                  <Card.Title className="banner_text">Chrome Extension using BERT</Card.Title>
+                  <Card.Title className="banner_text">Solabule</Card.Title>
                   <Card.Text className="banner_text">
-                    Utilized Google BERT for real-time text summarization, enhancing user productivity.
+                  Currently working on Solabule.A place to play all your favourite board games.Powered by Solana.
                   </Card.Text>
                   <Nav className="ml-auto">
-                    <Nav.Link href="https://github.com/NIXBLACK11/summarizationExtension" target="_blank" className='mx-1'>
+                    <Nav.Link href="https://github.com/NIXBLACK11/solabule" target="_blank" className='mx-1'>
                       <FaGithub/>
+                    </Nav.Link>
+                    <Nav.Link href="https://solabule-nix.vercel.app/" target="_blank" className='mx-1'>
+                      <FaLink/>
                     </Nav.Link>
                   </Nav>
                 </Card.Body>
@@ -59,25 +62,6 @@ export default function Projects(props) {
                     </Nav.Link>
                     <Nav.Link href="https://nixjoblinker.vercel.app/" target="_blank" className='mx-1'>
                       <FaLink/>
-                    </Nav.Link>
-                  </Nav>
-                </Card.Body>
-              </Card>
-              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col">
-                <Card.Img
-                  variant="top"
-                  src="Feedback.png"
-                  className="rounded mt-2"
-                  height={300}
-                />
-                <Card.Body>
-                  <Card.Title className="banner_text">Feedback Loop</Card.Title>
-                  <Card.Text className="banner_text">
-                    Video analysis app that gives people insights of thier creations.
-                  </Card.Text>
-                  <Nav className="ml-auto">
-                    <Nav.Link href="https://github.com/NIXBLACK11/The-Feedback-Loop" target="_blank" className='mx-1'>
-                      <FaGithub/>
                     </Nav.Link>
                   </Nav>
                 </Card.Body>
@@ -107,6 +91,43 @@ export default function Projects(props) {
               <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col">
                 <Card.Img
                   variant="top"
+                  src="Feedback.png"
+                  className="rounded mt-2"
+                  height={300}
+                />
+                <Card.Body>
+                  <Card.Title className="banner_text">Feedback Loop</Card.Title>
+                  <Card.Text className="banner_text">
+                    Video analysis app that gives people insights of thier creations.
+                  </Card.Text>
+                  <Nav className="ml-auto">
+                    <Nav.Link href="https://github.com/NIXBLACK11/The-Feedback-Loop" target="_blank" className='mx-1'>
+                      <FaGithub/>
+                    </Nav.Link>
+                  </Nav>
+                </Card.Body>
+              </Card>
+              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col">
+                <Card.Img
+                  variant="top"
+                  src="bertproject.jpg"
+                  className="rounded mt-2"
+                />
+                <Card.Body>
+                  <Card.Title className="banner_text">Chrome Extension using BERT</Card.Title>
+                  <Card.Text className="banner_text">
+                    Utilized Google BERT for real-time text summarization, enhancing user productivity.
+                  </Card.Text>
+                  <Nav className="ml-auto">
+                    <Nav.Link href="https://github.com/NIXBLACK11/summarizationExtension" target="_blank" className='mx-1'>
+                      <FaGithub/>
+                    </Nav.Link>
+                  </Nav>
+                </Card.Body>
+              </Card>
+              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col">
+                <Card.Img
+                  variant="top"
                   src="codeChat.png"
                   className="rounded mt-2"
                   height={200}
@@ -118,6 +139,70 @@ export default function Projects(props) {
                   </Card.Text>
                   <Nav className="ml-auto">
                     <Nav.Link href="https://github.com/NIXBLACK11/chatApp" target="_blank" className='mx-1'>
+                      <FaGithub/>
+                    </Nav.Link>
+                  </Nav>
+                </Card.Body>
+              </Card>
+              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col">
+                <Card.Img
+                  variant="top"
+                  src="project-img2.jpg"
+                  className="rounded mt-2"
+                />
+                <Card.Body>
+                  <Card.Title className="banner_text">
+                    Personal Portfolio
+                  </Card.Title>
+                  <Card.Text className="banner_text">
+                    Responsive Portfolio website built with ReactJs.
+                  </Card.Text>
+                  <Nav className="ml-auto">
+                    <Nav.Link href="https://github.com/NIXBLACK11/Siddharth-sPortfolio" target="_blank" className='mx-1'>
+                      <FaGithub/>
+                    </Nav.Link>
+                    <Nav.Link href="https://siddharth-dev-portfolio.netlify.app/" target="_blank" className='mx-1'>
+                      <FaLink/>
+                    </Nav.Link>
+                  </Nav>
+                </Card.Body>
+              </Card>
+              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col">
+                <Card.Img
+                  variant="top"
+                  src="project-img5.png"
+                  className="rounded mt-2"
+                />
+                <Card.Body>
+                  <Card.Title className="banner_text">
+                    Telegram chat bot
+                  </Card.Title>
+                  <Card.Text className="banner_text">
+                    Used by users to view account info and basic bank policies.
+                  </Card.Text>
+                  <Nav className="ml-auto">
+                    <Nav.Link href="https://github.com/NIXBLACK11/DESKTOP_APP" target="_blank" className='mx-1'>
+                      <FaGithub/>
+                    </Nav.Link>
+                  </Nav>
+                </Card.Body>
+              </Card>
+              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col">
+                <Card.Img
+                  variant="top"
+                  src="project-img4.png"
+                  className="rounded mt-2"
+                />
+                <Card.Body>
+                  <Card.Title className="banner_text">
+                    Instagram Hashtag Finder
+                  </Card.Title>
+                  <Card.Text className="banner_text">
+                    Search Engine to find the hashtag related to topics in
+                    instagram.
+                  </Card.Text>
+                  <Nav className="ml-auto">
+                    <Nav.Link href="https://github.com/NIXBLACK11/summarizationExtension" target="_blank" className='mx-1'>
                       <FaGithub/>
                     </Nav.Link>
                   </Nav>
@@ -184,29 +269,6 @@ export default function Projects(props) {
               <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col">
                 <Card.Img
                   variant="top"
-                  src="project-img2.jpg"
-                  className="rounded mt-2"
-                />
-                <Card.Body>
-                  <Card.Title className="banner_text">
-                    Personal Portfolio
-                  </Card.Title>
-                  <Card.Text className="banner_text">
-                    Responsive Portfolio website built with ReactJs.
-                  </Card.Text>
-                  <Nav className="ml-auto">
-                    <Nav.Link href="https://github.com/NIXBLACK11/Siddharth-sPortfolio" target="_blank" className='mx-1'>
-                      <FaGithub/>
-                    </Nav.Link>
-                    <Nav.Link href="https://siddharth-dev-portfolio.netlify.app/" target="_blank" className='mx-1'>
-                      <FaLink/>
-                    </Nav.Link>
-                  </Nav>
-                </Card.Body>
-              </Card>
-              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col">
-                <Card.Img
-                  variant="top"
                   src="project-img3.jpg"
                   className="rounded mt-2"
                 />
@@ -215,47 +277,6 @@ export default function Projects(props) {
                   <Card.Text className="banner_text">
                     Desktop app with login, update, delete, register
                     functionality.
-                  </Card.Text>
-                  <Nav className="ml-auto">
-                    <Nav.Link href="https://github.com/NIXBLACK11/DESKTOP_APP" target="_blank" className='mx-1'>
-                      <FaGithub/>
-                    </Nav.Link>
-                  </Nav>
-                </Card.Body>
-              </Card>
-              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col">
-                <Card.Img
-                  variant="top"
-                  src="project-img4.png"
-                  className="rounded mt-2"
-                />
-                <Card.Body>
-                  <Card.Title className="banner_text">
-                    Instagram Hashtag Finder
-                  </Card.Title>
-                  <Card.Text className="banner_text">
-                    Search Engine to find the hashtag related to topics in
-                    instagram.
-                  </Card.Text>
-                  <Nav className="ml-auto">
-                    <Nav.Link href="https://github.com/NIXBLACK11/summarizationExtension" target="_blank" className='mx-1'>
-                      <FaGithub/>
-                    </Nav.Link>
-                  </Nav>
-                </Card.Body>
-              </Card>
-              <Card style={{ width: "25rem" }} className="mx-3  my-3 col-col">
-                <Card.Img
-                  variant="top"
-                  src="project-img5.png"
-                  className="rounded mt-2"
-                />
-                <Card.Body>
-                  <Card.Title className="banner_text">
-                    Telegram chat bot
-                  </Card.Title>
-                  <Card.Text className="banner_text">
-                    Used by users to view account info and basic bank policies.
                   </Card.Text>
                   <Nav className="ml-auto">
                     <Nav.Link href="https://github.com/NIXBLACK11/DESKTOP_APP" target="_blank" className='mx-1'>
